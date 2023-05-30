@@ -24,6 +24,7 @@ const Navbar = () => {
         pb: 2,
         backgroundColor: offset >= 100 ? "rgba(0,0,0,0.5)" : "transparent",
         backdropFilter: `blur(${offset >= 100 ? 10 : 0}px)`,
+        zIndex: 10,
       }}
     >
       <Container fixed sx={{ width: "100%" }}>

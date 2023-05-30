@@ -42,4 +42,5 @@
   padding: 0;
   margin: 0;
   font-family: "Manrope-Regular";
+  box-sizing: border-box;
 }
