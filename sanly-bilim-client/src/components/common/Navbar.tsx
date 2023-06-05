@@ -14,6 +14,7 @@ const Navbar = () => {
     window.addEventListener("scroll", onScroll, { passive: true });
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
+
   return (
     <Box
       sx={{
@@ -38,6 +39,7 @@ const Navbar = () => {
         >
           <Logo />
           <NavbarSelect />
+
           <Button variant="outlined" sx={{ pt: 1.5, pb: 1.5 }}>
             <MenuIcon />
           </Button>

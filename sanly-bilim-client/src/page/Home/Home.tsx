@@ -1,4 +1,4 @@
-import Counter from "../../components/home/Counter";
+import Counter from "../../components/common/Counter";
 import Header from "../../components/home/Header";
 import PatternLogo from "../../assets/icon/element/PatternLogo";
 import SecondSection from "../../components/home/SecondSection";

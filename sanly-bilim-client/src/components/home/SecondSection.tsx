@@ -1,6 +1,7 @@
 import { Box, Stack, Typography, useMediaQuery, useTheme } from "@mui/material";
-import styles, { fonts } from "../../helper/style.helper";
+import { fonts } from "../../helper/style.helper";
 import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
+import Summary from "../common/Summary";
 
 const circle = {
   background: "rgba(255, 255, 255, 0.2)",
@@ -31,17 +32,9 @@ const SecondSection = () => {
         alignItems={"flex-start"}
         spacing={5}
       >
-        <Stack sx={{ width: "50%", pt: 20 }}>
-          <Typography sx={styles.titleMedium}>
-            Lorem ipsum dolor sit amet consectetur adipiscing elit
-          </Typography>
-          <Typography variant="body1" sx={{ width: "416px", mt: 2 }}>
-            Sanly Bilim Ashgabat based digital and creative agency. Our team is
-            lead in creating digital products. Sanly Bilim is not only about
-            creating, but it’s about teaching, and support moves like gender
-            equality.
-          </Typography>
-        </Stack>
+        <div style={{ paddingTop: "200px", width: "50%" }}>
+          <Summary />
+        </div>
 
         <Box sx={circle}>
           <Typography
